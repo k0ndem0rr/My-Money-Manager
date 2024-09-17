@@ -7,7 +7,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body></body>
     <header>
         <h1>My Money Manager</h1>
         <nav>
@@ -19,33 +19,4 @@
             </ul>
         </nav>
     </header>
-
-    <main>
-        <section id="index">
-            <h2>Herramientas</h2>
-            <button id="interes-compuesto">Interés Compuesto</button>
-            <button id="presupuesto">Presupuesto</button>
-            <button id="distribucion">Distribución de activos</button>
-        </section>
-        <section id="budget-section">
-            <h2>Gestionar Presupuesto</h2>
-            <form id="budget-form">
-                <label for="amount">Cantidad:</label>
-                <input type="number" id="amount" name="amount" required>
-                <label for="description">Descripción:</label>
-                <input type="text" id="description" name="description" required>
-                <button type="submit">Agregar</button>
-            </form>
-        </section>
-
-        <section id="budget-list">
-            <h2>Historial de Movimientos</h2>
-            <ul id="entries">
-                <!-- Aquí aparecerán los registros -->
-            </ul>
-        </section>
-    </main>
-
-    <script src="app.js"></script>
-</body>
 </html>
