@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2d89ef"/>
     <title>My Money Manager</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
     <header>
         <h1>My Money Manager</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="interes-compuesto.html">Interés Compuesto</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="distribucion.html">Distribución de Activos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
+        <section id="index">
+            <h2>Herramientas</h2>
+            <button id="interes-compuesto">Interés Compuesto</button>
+            <button id="presupuesto">Presupuesto</button>
+            <button id="distribucion">Distribución de activos</button>
+        </section>
         <section id="budget-section">
             <h2>Gestionar Presupuesto</h2>
             <form id="budget-form">
